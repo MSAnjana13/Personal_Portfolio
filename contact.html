@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;
+  background-color:rgb(13, 14, 15);
+}
+
+input[type=text], input[type=password],textarea {
+  width: 100%;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  margin: 8px 0;
+}
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  padding: 15px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 10% auto; 
+  border: 1px solid #888;
+  width: 40%; 
+}
+
+
+
+</style>
+</head>
+<body>
+
+<h2>CONTACT ME</h2>
+  <form class="modal-content "  method="POST" />
+
+    <div class="container">
+      <label for="name"><b>Name</b></label>
+      <input type="text" placeholder="Enter Name" name="name" required>
+
+      <label for="email"><b>Email-id</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+      <label for="info"><b>Message</b></label>
+        <textarea name="message" placeholder="Enter Message" required name="info"></textarea>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+</div>
+</body>
+</html>
